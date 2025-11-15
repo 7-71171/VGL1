@@ -17,8 +17,9 @@ namespace VGL1
 {
     public class MainViewModel : ViewModelBase
     {
-        public ICommand? ButtonCommand { get; }
-
+        /// <summary>
+        /// ウィンドウタイトル
+        /// </summary>
         private string? _title;
         public string? Title
         {
@@ -26,6 +27,9 @@ namespace VGL1
             set => SetProperty(ref _title, value);
         }
 
+        /// <summary>
+        /// 戻るボタン表示状態
+        /// </summary>
         private Visibility _backButtonVisibility;
         public Visibility BackButtonVisibility
         {
@@ -33,6 +37,9 @@ namespace VGL1
             set => SetProperty(ref _backButtonVisibility, value);
         }
 
+        /// <summary>
+        /// サイドバー項目
+        /// </summary>
         private ObservableCollection<SidebarItem> _sidebarItems;
         public ObservableCollection<SidebarItem> SidebarItems
         {
@@ -40,6 +47,14 @@ namespace VGL1
             set => SetProperty(ref _sidebarItems, value);
         }
 
+        /// <summary>
+        /// ボタンコマンド
+        /// </summary>
+        public ICommand? ButtonCommand { get; }
+
+        /// <summary>
+        /// メインコンテンツフレーム
+        /// </summary>
         private Page _mainFrameContent;
         public Page MainFrameContent
         {
@@ -51,6 +66,7 @@ namespace VGL1
         {
             ButtonCommand = new RelayCommand<Action>(param =>
             {
+                // 戻るボタン用
                 if (param is null)
                 {
                     OpenHomeMenu();
@@ -70,7 +86,7 @@ namespace VGL1
             Title = d.DefaultTitle;
             BackButtonVisibility = d.DefaultBackButtonVisibility;
             SidebarItems = d.DefaultSidebarItems;
-            MainFrameContent = new Menus.Home();
+            MainFrameContent = d.DefaultMainFrameContent;
         }
 
         public void OpenHomeMenu()

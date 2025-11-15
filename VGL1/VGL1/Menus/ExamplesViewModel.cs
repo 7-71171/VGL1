@@ -44,7 +44,7 @@ namespace VGL1.Menus
                     if (instance is Page p)
                     {
                         var vm = App.MainVM;
-                        var d = new DefaultValues(App.MainVM);
+                        var d = new DefaultValues(vm);
                         vm.Title = $"{d.DefaultTitle}  >  App {app.AppId} ({app.AppName})";
                         vm.BackButtonVisibility = Visibility.Visible;
                         vm.MainFrameContent = p;

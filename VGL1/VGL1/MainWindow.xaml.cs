@@ -8,7 +8,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using VGL1.Models;
 
 namespace VGL1
 {
@@ -22,37 +21,6 @@ namespace VGL1
             InitializeComponent();
 
             DataContext = App.MainVM;
-        }
-
-        private void Titlebar_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ClickCount == 2)
-            {
-                WindowState = (WindowState == WindowState.Maximized)
-                    ? WindowState.Normal
-                    : WindowState.Maximized;
-            }
-            else if (e.ButtonState == MouseButtonState.Pressed)
-            {
-                DragMove();
-            }
-        }
-
-        private void MinButton_Click(object sender, RoutedEventArgs e)
-        {
-            WindowState = WindowState.Minimized;
-        }
-
-        private void MaxButton_Click(object sender, RoutedEventArgs e)
-        {
-            WindowState = (WindowState == WindowState.Maximized)
-                ? WindowState = WindowState.Normal
-                : WindowState = WindowState.Maximized;
-        }
-
-        private void CloseButton_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
         }
     }
 }
