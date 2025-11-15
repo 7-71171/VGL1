@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vogue\\OneDrive\\Documents\\GitHub\\VGL1\\VGL1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69A9C76A-B6CC-41D7-948B-110FEEC58F14}|VGL1\\VGL1.csproj|c:\\users\\vogue\\onedrive\\documents\\github\\vgl1\\vgl1\\vgl1\\samples\\app1\\app1viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A9C76A-B6CC-41D7-948B-110FEEC58F14}|VGL1\\VGL1.csproj|solutionrelative:vgl1\\samples\\app1\\app1viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A9C76A-B6CC-41D7-948B-110FEEC58F14}|VGL1\\VGL1.csproj|c:\\users\\vogue\\onedrive\\documents\\github\\vgl1\\vgl1\\vgl1\\samples\\app1\\app1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69A9C76A-B6CC-41D7-948B-110FEEC58F14}|VGL1\\VGL1.csproj|solutionrelative:vgl1\\samples\\app1\\app1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 363,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App1ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vogue\\OneDrive\\Documents\\GitHub\\VGL1\\VGL1\\VGL1\\Samples\\App1\\App1ViewModel.cs",
+              "RelativeDocumentMoniker": "VGL1\\Samples\\App1\\App1ViewModel.cs",
+              "ToolTip": "C:\\Users\\vogue\\OneDrive\\Documents\\GitHub\\VGL1\\VGL1\\VGL1\\Samples\\App1\\App1ViewModel.cs",
+              "RelativeToolTip": "VGL1\\Samples\\App1\\App1ViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T07:51:12.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App1.xaml",
+              "DocumentMoniker": "C:\\Users\\vogue\\OneDrive\\Documents\\GitHub\\VGL1\\VGL1\\VGL1\\Samples\\App1\\App1.xaml",
+              "RelativeDocumentMoniker": "VGL1\\Samples\\App1\\App1.xaml",
+              "ToolTip": "C:\\Users\\vogue\\OneDrive\\Documents\\GitHub\\VGL1\\VGL1\\VGL1\\Samples\\App1\\App1.xaml",
+              "RelativeToolTip": "VGL1\\Samples\\App1\\App1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-07T07:50:28.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
